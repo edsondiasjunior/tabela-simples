@@ -26,17 +26,26 @@
        table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
        }
 
-       tbody tr:nth-child(odd) /* Alternar cor de Background */ {
+       tbody tr:nth-child(odd) /* ou 2n-1, even Alternar cor de Background */ {
         background-color: rgb(226, 226, 226);
         
+       }
+
+       thead > tr > th{ /* Fixar o th no topo da tabela (Conferir se é ompatível com todos os navegadores) */
+        position: sticky;
+        top: -1px;
+        background-color: rgb(86, 85, 85);
        }
 
        td, th{
         border: 1px solid black;
         padding: 10px;
        }
+
+
 
        .num{
         text-align: right;
@@ -45,6 +54,10 @@
        thead, tfoot{
         background-color: rgb(86, 85, 85);
         color: white;
+       }
+
+       p{
+        width: 500px;
        }
     </style>
 </head>
@@ -208,5 +221,20 @@
             </tr>
         </tfoot>
     </table>
+
+    <h1>Paragrafos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veniam minima praesentium omnis, saepe voluptate qui at blanditiis error, eum eaque similique, nemo nesciunt ea sint accusantium iusto! Debitis, dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quas laboriosam ea non quibusdam fugiat consequatur. Laborum vitae voluptates, magni temporibus voluptate beatae cupiditate quia obcaecati repellendus, eaque, nesciunt minima.</p>
 </body>
 </html>
