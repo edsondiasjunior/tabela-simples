@@ -29,6 +29,7 @@
 
         table.ex{
             width: 700px;
+            background-size: fu;
         }
 
         caption{
@@ -46,6 +47,9 @@
             padding: 10px;
         }
         
+        
+  
+
     </style>
 </head>
 <body>
@@ -122,10 +126,14 @@
 
     <h2>Exercício de tabela</h2>
     <table class="ex">
+
+        <colgroup>
+        <col class="cnomes">
+        </colgroup>
         <caption>Filmes Favoritos</caption>
         <thead>
             <th scope="col">Grupos</th>
-            <th scope="col">Nomes</th>
+            <th scope="col" class="nome">Nomes</th>
             <th colspan="3" scope="colgroup">Filmes</th>
         </thead>
         <tbody>
