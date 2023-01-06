@@ -8,11 +8,29 @@
     <style>
        body{
         font-family: Arial, Helvetica, sans-serif;
+        
+       }
+       
+       caption{
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 10px;
+        background-color: rgb(212, 212, 212);
+        border-radius: 10px 10px 0px 0px;
+       }
+       
+       h1{
+        
        }
 
        table{
         width: 500px;
         border-collapse: collapse;
+       }
+
+       tbody tr:nth-child(odd) /* Alternar cor de Background */ {
+        background-color: rgb(226, 226, 226);
+        
        }
 
        td, th{
@@ -25,7 +43,8 @@
        }
 
        thead, tfoot{
-        background-color: rgb(216, 216, 216);
+        background-color: rgb(86, 85, 85);
+        color: white;
        }
     </style>
 </head>
@@ -34,7 +53,7 @@
 
 <!-- 
     HIERARQUIA DE TABELA GRANDE
-
+    CAPTION - legenda da tabela
     TABLE = tabela
         THEAD = header da tbela
             TR, TD, TH
@@ -46,7 +65,8 @@
 -->
 
     <table>
-        <thead>
+        <caption>População das Uniidades Federativas</caption>
+        <thead>  
             <tr>
                 <th>Estado</th>
                 <th>População</th>
